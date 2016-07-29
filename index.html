@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Restaurante</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+		<link rel="stylesheet" href="css/font-awesome.min.css">
+		<link href="css/styles.css" rel="stylesheet">
+
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body data-spy="scroll" data-target="#bs-example-navbar-collapse-1">
+
+		<!-- Begin Header -->
+		<div class="container-fluid" id="home">
+			<div class="row">
+				<nav class="navbar navbar-default">
+				  <div class="container-fluid">
+				    <!-- Brand and toggle get grouped for better mobile display -->
+				    <div class="navbar-header main-logo">
+				      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+				        <span class="sr-only">Toggle navigation</span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+				      </button>
+				      <img src="img/name-01.png" alt="Restaurante Logo" class="mainavbar-brand img-responsive">
+				    </div>
+
+				    <!-- Collect the nav links, forms, and other content for toggling -->
+				    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				      <ul class="nav navbar-nav navbar-right">
+								<li class="active"><a href="#home">Home<span class="sr-only">(current)</span></a></li>
+				        <li><a href="#story">Our Story</a></li>
+				        <li><a href="#review">Review</a></li>
+								<li><a href="#menu">Menu</a></li>
+				        <li><a class="right-nav" href="#contact">Contact Us</a></li>
+				      </ul>
+				    </div><!-- /.navbar-collapse -->
+				  </div><!-- /.container-fluid -->
+				</nav>
+			</div>
+		</div>
+		<!-- End Header -->
+
+    <!-- Begin Carousel -->
+    <div class="carousel-wrapper">
+      <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+          <div class="item active slide-1">
+            <div class="carousel-caption">
+              <img src="img/logo-01.png" alt="Logo Background" class="img-responsive logo-background center-block">
+            </div>
+          </div><!-- End First Slide -->
+          <div class="item slide-2">
+            <div class="carousel-caption">
+              <h3>...</h3>
+              <p>...</p>
+            </div>
+          </div><!-- End Second Slide -->
+          <div class="item slide-3">
+            <div class="carousel-caption">
+              <h3>...</h3>
+              <p>...</p>
+            </div>
+          </div><!-- End Third Slide -->
+        </div><!-- End Carousel Inner -->
+
+        <!-- Controls -->
+        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+    <!-- End Carousel -->
+
+    <!-- Begin Story -->
+    <div class="container-fluid story" id="story">
+      <div class="row">
+        <div class="col-md-5 col-md-offset-1 title">
+          <h2>Our Story</h2>
+          <p>One Man. One Dream.</p>
+        </div>
+        <div class="col-md-5 info">
+          <h2 class="story-text">1989</h2>
+          <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis laboriosam labore, voluptatibus nihil molestiae delectus ad ratione, quas reiciendis eaque, possimus sunt ipsa? Ea, qui! Temporibus similique fugiat dolorum, nobis.</p>
+          <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis laboriosam labore, voluptatibus nihil molestiae delectus ad ratione, quas reiciendis eaque, possimus sunt ipsa? Ea, qui! Temporibus similique fugiat dolorum, nobis.</p>
+          <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis laboriosam labore, voluptatibus nihil molestiae delectus ad ratione, quas reiciendis eaque, possimus sunt ipsa? Ea, qui! Temporibus similique fugiat dolorum, nobis.</p>
+          <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis laboriosam labore, voluptatibus nihil molestiae delectus ad ratione, quas reiciendis eaque, possimus sunt ipsa? Ea, qui! Temporibus similique fugiat dolorum, nobis.</p>
+        </div>
+      </div>
+    </div>
+    <!-- End Story -->
+
+    <!-- Begin Review -->
+    <div class="container-fluid review-section" id="review">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="jumbotron review center-block img-responsive">
+            <h1 class="text-center">Fresno Bee</h1>
+            <p class="text-center">"The freshest and best ingredients come together to make some of the best food I have ever ate. You can really taste the Central Valley in every bite."</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Review -->
+
+    <!-- Begin Menu -->
+    <div class="container-fluid menu-background" id="menu">
+      <h2 class="text-center">Menu</h2>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 menu-nav">
+            <ul class="nav nav-tabs menu-tabs">
+              <li role="presentation" class="active"><a href="#menu">Appetizer</a></li>
+              <li role="presentation"><a href="#menu">Lunch</a></li>
+              <li role="presentation"><a href="#menu">Dinner</a></li>
+              <li role="presentation"><a href="#menu">Dessert</a></li>
+            </ul>
+          </div>
+          <div class="col-md-12">
+            <div class="thumbnail pull-left">
+              <img src="img/dip.jpg" alt="Dip Appetizer" class="img-responsive">
+              <div class="caption">
+                <h3 class="text-center">Appetizer 1</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita excepturi ab quia sunt. Cupiditate illum non et tempore similique, cumque explicabo nesciunt tempora aliquam eius doloremque, fuga deleniti fugit. Distinctio.</p>
+              </div>
+            </div>
+            <div class="thumbnail pull-left">
+              <img src="img/eggplant.jpg" alt="Eggplant Appetizer" class="img-responsive">
+              <div class="caption">
+                <h3 class="text-center">Appetizer 2</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita excepturi ab quia sunt. Cupiditate illum non et tempore similique, cumque explicabo nesciunt tempora aliquam eius doloremque, fuga deleniti fugit. Distinctio.</p>
+              </div>
+            </div>
+            <div class="thumbnail pull-left">
+              <img src="img/meat.jpg" alt="Meat Appetizer" class="img-responsive">
+              <div class="caption">
+                <h3 class="text-center">Appetizer 3</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita excepturi ab quia sunt. Cupiditate illum non et tempore similique, cumque explicabo nesciunt tempora aliquam eius doloremque, fuga deleniti fugit. Distinctio.</p>
+              </div>
+            </div>
+            <div class="thumbnail pull-left">
+              <img src="img/bruschetta.jpg" alt="Bruschetta Appetizer" class="img-responsive">
+              <div class="caption">
+                <h3 class="text-center">Appetizer 4</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita excepturi ab quia sunt. Cupiditate illum non et tempore similique, cumque explicabo nesciunt tempora aliquam eius doloremque, fuga deleniti fugit. Distinctio.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Menu -->
+
+    <!-- Form -->
+    <div class="container-fluid contact" id="contact">
+      <div class="row">
+        <div class="container">
+          <div class="col-md-12">
+            <h2 class="pull-left">Contact Us</h2>
+            <p class="pull-left">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi ea minima, repellendus eaque, nobis quae aspernatur dolor recusandae esse quod, officiis adipisci harum fugit voluptatum, hic! Consequuntur id, repudiandae nesciunt.</p>
+          </div>
+          <div class="col-md-6">
+            <div class="row">
+              <div class="col-md-7 contact-form">
+                <form>
+                  <div class="form-group">
+                    <label for="exampleInputName1">Name: <span class="mandatory">*</span></label>
+                    <input type="name" class="form-control" id="exampleInputName1" placeholder="">
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleInputEmail1">E-mail: <span class="mandatory">*</span></label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="">
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleInputSubject1">Subject:</label>
+                    <input type="subject" class="form-control" id="exampleInputSubject1" placeholder="">
+                  </div>
+                  <div class="form-group form-message">
+                    <label for="exampleInputEmail1">Message: <span class="mandatory">*</span></label>
+                    <input type="message" class="form-control" id="exampleInputMessage1" placeholder="">
+                  </div>
+                  <div class="checkbox">
+                  <label>
+                    <input type="checkbox">Check us out!
+                  </label>
+                  </div>
+                  <button type="submit" class="btn btn-primary center-block form-button">Send Message</button>
+                </form>
+                <p>All fields marked with <span class="mandatory-2">*</span> are required.</p>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-md-6 location-info">
+            <h3>Restaurante</h3>
+            <p>123 Fulton St <br>
+              Fresno, CA 93728 <br>
+              P: (123) 456-7890
+            </p>
+            <div class="map">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7219.74590937663!2d-119.79106729596289!3d36.73436497995107!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809460a5cfdf4b6b%3A0xab092ce50c284a0a!2sBitwise+Industries!5e0!3m2!1sen!2sus!4v1469761604096" width="500" height="150" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

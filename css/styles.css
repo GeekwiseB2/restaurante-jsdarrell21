@@ -1,0 +1,297 @@
+/*Google Fonts*/
+@import url(https://fonts.googleapis.com/css?family=Raleway|Lobster|Playfair+Display:700);
+
+/*Global Styles*/
+html, body {
+  font-family: 'raleway', sans-serif;
+}
+
+/*Nav Styles*/
+.navbar {
+  position: fixed;
+  top: 30px;
+  z-index: 30;
+  width: 100%;
+}
+
+.navbar-default {
+  background-color: transparent;
+  border: none;
+  top: 0;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+  background-color: rgba(0, 0, 0, .4);
+  color: #fff;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #fff;
+}
+
+.navbar-default .navbar-nav>li>.right-nav {
+  margin-right: -15px;
+}
+
+.main-logo img {
+  padding-top: 10px;
+}
+
+/*Carousel Styles*/
+.carousel .item {
+  height: 65vh;
+}
+
+.logo-background {
+  max-height: 450px;
+  padding-bottom: 9%;
+}
+
+.slide-1 {
+  background-image: url('../img/wood-2.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.slide-2 {
+  background-image: url('../img/restaurant-2.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.slide-3 {
+  background-image: url('../img/farm-2.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+/*Story Styles*/
+.story {
+  height: 70vh;
+}
+
+.title h2 {
+  padding-top: 12%;
+  font-size: 6em;
+  font-family: 'lobster', cursive;
+  color: #f8512f;
+  text-shadow: 1px 1px 1px black;
+}
+
+.title p {
+  font-size: 2.1em;
+  font-family: 'raleway', sans-serif;
+  font-weight: bold;
+}
+
+.info {
+  padding-top: 5%;
+}
+
+.info p {
+  width: 90%;
+}
+
+.story-text {
+  z-index: -1;
+  color: rgba(149,147,147,0.2);
+  position: absolute;
+  font-size: 200px;
+  font-family: 'Playfair Display', sans-serif;
+}
+
+/*Review Styles*/
+.review-section {
+  height: 65vh;
+  background-image: url('../img/food_review.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+.review {
+  width: 65vw;
+  margin-top: 8%;
+  height: 230px;
+  background-color: rgba(0,0,0,0.5);
+  padding-top: 15px;
+}
+
+.review h1 {
+  color: #f8512f;
+  text-shadow: 1px 1px 1px #000;
+  font-family: 'lobster', cursive;
+  font-size: 6em;
+}
+
+.review p {
+  color: #fff;
+  text-shadow: 1px 1px 1px #000;
+  font-size: 2em;
+}
+
+/*Menu Styles*/
+.menu-background {
+  background-image: url('../img/black_linen.png');
+  background-position: center;
+  background-size: cover;
+  height: 87vh;
+}
+
+.menu-background h2 {
+  padding-top: 3%;
+  font-size: 6em;
+  font-family: 'lobster', cursive;
+  color: #fff;
+}
+
+.menu-tabs li {
+  width: 25%;
+  text-align: center;
+  font-size: 1.1em;
+}
+
+.nav-tabs>li>a {
+  margin: 0;
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+  color: #f8512f;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 0.9em;
+  padding-bottom: 10px;
+}
+
+.menu-tabs a {
+  color: #f8512f;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 0.9em;
+  padding-bottom: 10px;
+}
+
+.thumbnail {
+  width: 25%;
+  margin: 0 auto;
+  height: 55vh;
+  border-radius: 0;
+  border: none;
+  padding: 15px;
+}
+
+.thumbnail img {
+  padding: 3px;
+  border: 1px double #ddd;
+  border-radius: 5px;
+}
+
+.thumbnail h3 {
+  font-size: 2em;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #000;
+  margin-top: 5px;
+}
+
+.thumbnail p {
+  text-align: justify;
+  font-size: 1.1em;
+}
+
+/*Contact Section*/
+.contact {
+  background-color: #f8512f;
+  margin-bottom: 50px;
+}
+
+.contact h2 {
+  color: #fff;
+  font-size: 4em;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-top: 5%;
+}
+
+.contact p {
+  color: #fff;
+  text-align: justify;
+}
+
+.contact-form {
+  background-color: #ff6633;
+  margin: 50px 0 25px;
+  margin-left: 4%;
+}
+
+.contact-form button {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.form-group {
+  color: #fff;
+  padding-top: 5px;
+  margin-bottom: 0;
+}
+
+.mandatory {
+  color: red;
+  font-size: 1.2em;
+}
+
+.mandatory-2 {
+  color: red;
+  font-size: 15px;
+}
+
+.form-group label {
+  font-size: 12px;
+}
+
+.form-group input {
+  height: 20px;
+  border-radius: 0;
+}
+
+.contact-form p {
+  text-align: center;
+  font-size: 9px;
+  margin-top: -20px;
+  padding-bottom: 20px;
+}
+
+.form-message input {
+  height: 100px;
+}
+
+.checkbox {
+  margin: 25px 0;
+  font-size: 15px;
+  color: #fff;
+}
+
+.form-button {
+  width: 100px;
+  height: 20px;
+  padding: 0;
+  border-radius: 0;
+  font-size: 12px;
+  background-color: #ccc;
+  border: none;
+}
+
+/*Map Section*/
+.location-info {
+  margin-top: 35px;
+}
+
+.location-info h3 {
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.map {
+  margin-top: 4%;
+}
